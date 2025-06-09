@@ -5,7 +5,7 @@ export default [
    {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:1337', 'http://127.0.0.1:1337', 'http://localhost:3000', 'http://127.0.0.1:3000', 'https://blog-project-beige-one.vercel.app'], // Add both localhost and 127.0.0.1 for both ports
+      origin: ['http://localhost:1337', 'http://127.0.0.1:1337', 'http://localhost:3000', 'http://127.0.0.1:3000', 'https://blog-project-beige-one.vercel.app', 'https://blog.verznexus.ai'], // Add both localhost and 127.0.0.1 for both ports
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Accept'],
       // ... (optional: maxAge, credentials if needed)
